@@ -7,7 +7,8 @@ const student = {
 
 function getKeys(student)
 {
-	return Object.keys(student)
+	let keys = Object.keys(student)
+	return keys
 }
 
 console.log(getKeys(student))
