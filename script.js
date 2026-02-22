@@ -5,10 +5,9 @@ const student = {
 	city : "Delhi"
 }
 
-function getKeys(student)
+function getKeys(obj)
 {
-	let keys = Object.keys(student)
-	return keys
+	return Object.keys(obj)
 }
 
 console.log(getKeys(student))
